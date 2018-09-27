@@ -186,7 +186,6 @@
             HTTPActivity4_ExpectedOutputProperties_Document.LoadXml(
 @"<Arguments><ResponseHttpVersion /><StatusCode>200</StatusCode><StatusDescription /><ResponseBody /><ResponseBodyAsBase64 /></Arguments>");
             _flow.HTTPActivity4.ExpectedOutputProperties = HTTPActivity4_ExpectedOutputProperties_Document;
-            set_HTTPActivity4_checkpoints(_flow.HTTPActivity4);
             
         }
         
