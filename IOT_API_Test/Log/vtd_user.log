@@ -1,18 +1,18 @@
-2018-09-27 16:53:08,784 [1] INFO  - Loaded appender: FileAppenderExternal
-2018-09-27 16:53:08,806 [1] INFO  - Loaded appender: UserLoggerAppender
-2018-09-27 16:53:08,806 [1] INFO  - Loaded appender: FileAppenderInternal
-2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: FileAppenderExternal
-2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: UserLoggerAppender
-2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: FileAppenderInternal
-2018-09-27 16:53:09,665 [19] INFO  - Step 'Start' : Step 'Start' started
-2018-09-27 16:53:09,710 [19] INFO  - Step 'Start' ended successfully
-2018-09-27 16:53:09,711 [19] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2018-09-27 16:53:09,714 [19] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2018-09-27 16:53:09,717 [19] INFO  - Step 'IOT_API' : Step 'IOT_API' started
-2018-09-27 16:53:09,742 [19] INFO  - Step 'IOT_API' : Fetching HTTP Url: 'http://10.26.131.99:5000/push'
-2018-09-27 16:53:11,702 [19] INFO  - Step 'IOT_API' : Server returned status code: 200
-2018-09-27 16:53:11,703 [19] INFO  - Step 'IOT_API' : HTTP Raw request:
-2018-09-27 16:53:11,704 [19] INFO  - Step 'IOT_API' : POST http://10.26.131.99:5000/push 1.1
+2018-09-27 17:46:16,561 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-27 17:46:16,585 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-27 17:46:16,586 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-27 17:46:16,586 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-27 17:46:16,586 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-27 17:46:16,586 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-27 17:46:17,627 [19] INFO  - Step 'Start' : Step 'Start' started
+2018-09-27 17:46:17,699 [19] INFO  - Step 'Start' ended successfully
+2018-09-27 17:46:17,700 [19] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2018-09-27 17:46:17,703 [19] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2018-09-27 17:46:17,706 [19] INFO  - Step 'IOT_API' : Step 'IOT_API' started
+2018-09-27 17:46:17,740 [19] INFO  - Step 'IOT_API' : Fetching HTTP Url: 'http://10.26.131.99:5000/push'
+2018-09-27 17:46:20,057 [19] INFO  - Step 'IOT_API' : Server returned status code: 200
+2018-09-27 17:46:20,058 [19] INFO  - Step 'IOT_API' : HTTP Raw request:
+2018-09-27 17:46:20,060 [19] INFO  - Step 'IOT_API' : POST http://10.26.131.99:5000/push 1.1
 Content-Type: application/json
 Host: 10.26.131.99:5000
 Content-Length: 935
@@ -55,17 +55,17 @@ Connection: Keep-Alive
   "status": "Any"
 }
 
-2018-09-27 16:53:11,705 [19] INFO  - Step 'IOT_API' : HTTP Raw response:
-2018-09-27 16:53:11,706 [19] INFO  - Step 'IOT_API' : HTTP/1.0 200 OK
+2018-09-27 17:46:20,061 [19] INFO  - Step 'IOT_API' : HTTP Raw response:
+2018-09-27 17:46:20,062 [19] INFO  - Step 'IOT_API' : HTTP/1.0 200 OK
 Content-Length: 23
 Content-Type: application/json
-Date: Thu, 27 Sep 2018 11:23:11 GMT
+Date: Thu, 27 Sep 2018 12:16:19 GMT
 Server: Werkzeug/0.14.1 Python/2.7.15
 {"response":"Success"}
 
-2018-09-27 16:53:11,713 [19] INFO  - Checkpoint 0: "200" = "200" passed
-2018-09-27 16:53:11,719 [19] INFO  - Step 'IOT_API' ended successfully
-2018-09-27 16:53:11,721 [19] INFO  - Step 'Iteration 1' ended successfully
-2018-09-27 16:53:11,724 [19] INFO  - Step 'Test Flow' ended successfully
-2018-09-27 16:53:11,725 [19] INFO  - Step 'End' : Step 'End' started
-2018-09-27 16:53:11,735 [19] INFO  - Step 'End' ended successfully
+2018-09-27 17:46:20,076 [19] INFO  - Checkpoint 0: "200" = "200" passed
+2018-09-27 17:46:20,082 [19] INFO  - Step 'IOT_API' ended successfully
+2018-09-27 17:46:20,084 [19] INFO  - Step 'Iteration 1' ended successfully
+2018-09-27 17:46:20,086 [19] INFO  - Step 'Test Flow' ended successfully
+2018-09-27 17:46:20,088 [19] INFO  - Step 'End' : Step 'End' started
+2018-09-27 17:46:20,102 [19] INFO  - Step 'End' ended successfully
