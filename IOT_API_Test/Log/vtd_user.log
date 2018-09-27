@@ -1,0 +1,71 @@
+2018-09-27 16:53:08,784 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-27 16:53:08,806 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-27 16:53:08,806 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-27 16:53:08,807 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-27 16:53:09,665 [19] INFO  - Step 'Start' : Step 'Start' started
+2018-09-27 16:53:09,710 [19] INFO  - Step 'Start' ended successfully
+2018-09-27 16:53:09,711 [19] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2018-09-27 16:53:09,714 [19] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2018-09-27 16:53:09,717 [19] INFO  - Step 'IOT_API' : Step 'IOT_API' started
+2018-09-27 16:53:09,742 [19] INFO  - Step 'IOT_API' : Fetching HTTP Url: 'http://10.26.131.99:5000/push'
+2018-09-27 16:53:11,702 [19] INFO  - Step 'IOT_API' : Server returned status code: 200
+2018-09-27 16:53:11,703 [19] INFO  - Step 'IOT_API' : HTTP Raw request:
+2018-09-27 16:53:11,704 [19] INFO  - Step 'IOT_API' : POST http://10.26.131.99:5000/push 1.1
+Content-Type: application/json
+Host: 10.26.131.99:5000
+Content-Length: 935
+Expect: 100-continue
+Connection: Keep-Alive
+{
+  "H1-Number": "HOUSE_101",
+  "main-Door": "OPEN",
+  "H1-PowerCons": "100",
+  "H1-Room-Temperature": "40",
+  "H1-Water-Consumption": "30",
+  "H1lat": "17.4483",
+  "H1long": "78.3915",
+  "originatorType": "HOUSE_101",
+  "severity": "High",
+  "H2-Number": "HOUSE_102",
+  "H2-PowerCons": "45",
+  "H2-Room-Temperature": "45",
+  "H2-Water-Consumption": "35",
+  "H2lat": "18.4483",
+  "H2long": "79.3915",
+  "H3-Number": "HOUSE_103",
+  "H3-PowerCons": "45",
+  "H3-Room-Temperature": "45",
+  "H3-Water-Consumption": "35",
+  "H3lat": "16.4483",
+  "H3long": "79.3915",
+  "H4-Number": "HOUSE_104",
+  "H4-PowerCons": "45",
+  "H4-Room-Temperature": "45",
+  "H4-Water-Consumption": "25",
+  "H4lat": "15.4483",
+  "H4long": "79.3915",
+  "H5-Number": "HOUSE_105",
+  "H5-PowerCons": "45",
+  "H5-Room-Temperature": "45",
+  "H5-Water-Consumption": "25",
+  "H5lat": "19.4483",
+  "H5long": "79.3915",
+  "status": "Any"
+}
+
+2018-09-27 16:53:11,705 [19] INFO  - Step 'IOT_API' : HTTP Raw response:
+2018-09-27 16:53:11,706 [19] INFO  - Step 'IOT_API' : HTTP/1.0 200 OK
+Content-Length: 23
+Content-Type: application/json
+Date: Thu, 27 Sep 2018 11:23:11 GMT
+Server: Werkzeug/0.14.1 Python/2.7.15
+{"response":"Success"}
+
+2018-09-27 16:53:11,713 [19] INFO  - Checkpoint 0: "200" = "200" passed
+2018-09-27 16:53:11,719 [19] INFO  - Step 'IOT_API' ended successfully
+2018-09-27 16:53:11,721 [19] INFO  - Step 'Iteration 1' ended successfully
+2018-09-27 16:53:11,724 [19] INFO  - Step 'Test Flow' ended successfully
+2018-09-27 16:53:11,725 [19] INFO  - Step 'End' : Step 'End' started
+2018-09-27 16:53:11,735 [19] INFO  - Step 'End' ended successfully
