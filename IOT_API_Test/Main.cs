@@ -132,7 +132,7 @@
             _flow.HTTPActivity4.TextXmlBody = @"";
             _flow.HTTPActivity4.FileBody = @"";
             _flow.HTTPActivity4.PostBody = @"";
-            _flow.HTTPActivity4.Url = @"http://10.26.131.99:5000/push";
+            _flow.HTTPActivity4.Url = @"http://10.26.131.99:5000/push/api";
             _flow.HTTPActivity4.HttpMethod = @"POST";
             _flow.HTTPActivity4.HttpVersion = @"1.1";
             _flow.HTTPActivity4.RequestHeaders = new Pair<string, string>[1];
@@ -186,6 +186,7 @@
             HTTPActivity4_ExpectedOutputProperties_Document.LoadXml(
 @"<Arguments><ResponseHttpVersion /><StatusCode>200</StatusCode><StatusDescription /><ResponseBody /><ResponseBodyAsBase64 /></Arguments>");
             _flow.HTTPActivity4.ExpectedOutputProperties = HTTPActivity4_ExpectedOutputProperties_Document;
+            set_HTTPActivity4_checkpoints(_flow.HTTPActivity4);
             
         }
         
